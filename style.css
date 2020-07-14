@@ -35,6 +35,12 @@ input {
   border: none;
   box-sizing: border-box;
 }
+input[type=text]:focus {
+  box-shadow: 5px 5px 5px grey;
+}
+input[type=email]:focus {
+  box-shadow: 5px 5px 5px grey;
+}
 textarea {
   display: block;
   margin-bottom: 20px;
@@ -45,6 +51,9 @@ textarea {
   padding: 10px;
   border: none;
   box-sizing: border-box;
+}
+textarea:focus {
+  box-shadow: 5px 5px 5px grey;
 }
 button {
   cursor: pointer;
